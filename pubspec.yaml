@@ -1,0 +1,38 @@
+name: netflixclone
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chewie: ^1.2.2
+  cupertino_icons: ^1.0.2
+  eva_icons_flutter: ^3.0.0
+  font_awesome_flutter: ^9.0.0
+  http: ^0.13.3
+  provider: ^5.0.0
+  shared_preferences: ^2.0.6
+  url_strategy: ^0.2.0
+  video_player: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/landing-bg1.jpg
+    - assets/images/poster2.jpg
+    - assets/images/logo.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+    - family: MontserratB
+      fonts:
+        - asset: assets/fonts/Montserrat-B.ttf
